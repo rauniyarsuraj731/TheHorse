@@ -1,10 +1,11 @@
-import "./HomePage.css"
+import './HomePageContent.css'
+
 import React from 'react'
 
 export  const HomePage = () => {
   return (
     <div>
-      <img src="https://cdn.shopify.com/s/files/1/0233/5133/files/Behind_banner_vid_1536x.jpg?v=1654816890" alt="moving image" />
+      <img src="https://cdn.shopify.com/s/files/1/0233/5133/files/Behind_banner_vid_1536x.jpg?v=1654816890"  alt=""/>
       <div>
         <img src="https://cdn.shopify.com/s/files/1/0233/5133/files/4_2000x.jpg?v=1653526955" alt="" />
       <img src="https://cdn.shopify.com/s/files/1/0233/5133/files/giphy-2_2000x.gif?v=1653526899" alt="" />
@@ -18,6 +19,7 @@ export  const HomePage = () => {
       </div>
       <img src="https://cdn.shopify.com/s/files/1/0233/5133/files/monday_resin2_1536x.jpg?v=1653543476" alt="" />
       <img src="https://cdn.shopify.com/s/files/1/0233/5133/files/dress_tan_1536x.jpg?v=1653543395" alt="" />
+      <div></div>
     </div>
   )
 }

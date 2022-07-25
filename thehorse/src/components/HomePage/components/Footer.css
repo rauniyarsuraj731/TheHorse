@@ -1,0 +1,14 @@
+#footer-div {
+  background-color: #545540;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+#footer-features {
+    width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.me-5{
+    display: flex;
+}
