@@ -10,6 +10,7 @@ import { Popup } from "./pop-up/Pop-up";
 import { Womenwalletpage } from "./women/Women_wallet";
 import { Menswatch } from "./men/Menwatch";
 import { Footer } from "./components/HomePage/components/Footer";
+import { Productdetailpage } from "./productdetailpage/Productdetail";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/wallet" element={<Womenwalletpage/>}></Route>
         <Route path="/tech_travels" element={<Menstravel/>}></Route>
         <Route path="/watches" element={<Menswatch/>}></Route>
+        <Route path="/products" element={<Productdetailpage/>}></Route>
       </Routes>
       <Footer/>
     </div>
